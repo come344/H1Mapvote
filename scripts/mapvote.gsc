@@ -363,10 +363,10 @@ MapvoteConfig()
 	SetDvarIfNotInizialized("mv_selectcolor", "lightgreen");
 	SetDvarIfNotInizialized("mv_blur", "3");
 	SetDvarIfNotInizialized("mv_backgroundcolor", "grey");
-	SetDvarIfNotInizialized("mv_gametypes", "dm;dm.cfg war;war.cfg sd;sd.cfg dm;dm.cfg war;war.cfg sd;sd.cfg");
+	SetDvarIfNotInizialized("mv_gametypes", "dm;dm.cfg war;war.cfg sd;sd.cfg dom;dom.cfg conf;conf.cfg sab;sab.cfg koth;koth.cfg hp;hp.cfg gun;gun.cfg ctf;ctf.cfg dd;dd.cfg ");
 	setDvarIfNotInizialized("mv_allowchangevote", 1);
 	setDvarIfNotInizialized("mv_minplayerstovote", 1);
-	setDvarIfNotInizialized("mv_maps_norepeat", 0);
+	setDvarIfNotInizialized("mv_maps_norepeat", 1);
 	setDvarIfNotInizialized("mv_gametypes_norepeat", 0);
 	setDvarIfNotInizialized("mv_randomoption", 1);
 	setDvarIfNotInizialized("mv_extended", 1);
