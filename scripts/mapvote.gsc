@@ -366,8 +366,8 @@ MapvoteConfig()
 	SetDvarIfNotInizialized("mv_gametypes", "dm;dm.cfg war;war.cfg sd;sd.cfg dm;dm.cfg war;war.cfg sd;sd.cfg");
 	setDvarIfNotInizialized("mv_allowchangevote", 1);
 	setDvarIfNotInizialized("mv_minplayerstovote", 1);
-	setDvarIfNotInizialized("mv_maps_norepeat", 0);
-	setDvarIfNotInizialized("mv_gametypes_norepeat", 0);
+	setDvarIfNotInizialized("mv_maps_norepeat", 1);
+	setDvarIfNotInizialized("mv_gametypes_norepeat", 1);
 	setDvarIfNotInizialized("mv_randomoption", 1);
 	setDvarIfNotInizialized("mv_extended", 1);
 }
